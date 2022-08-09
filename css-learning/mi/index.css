@@ -1,0 +1,46 @@
+.topbar-wrapper {
+  background-color: #333;
+}
+.topbar {
+  width: 1226px;
+  margin: 0 auto;
+}
+.topbar-nav {
+  float: left;
+}
+.topbar-nav li{
+  float: left;
+}
+.topbar-nav li a,
+.topbar-info li a,
+.topbar-cart a {
+  float: left;
+  color: #B0B0B0;
+  font: 12px "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  /* line-height 放在font前面会被覆盖掉 */
+  line-height: 40px;
+}
+.topbar a:hover {
+  color: #fff;
+}
+.topbar .spe {
+  margin: 0 0.3em;
+  font-family: sans-serif;
+  color: #424242;
+  line-height: 40px;
+}
+.topbar-cart, .topbar-info {
+  float: right;
+}
+.topbar-info li {
+  float: left;
+}
+.topbar-cart {
+  background-color: #424242;
+  margin-left: 15px;
+}
+.topbar-cart a {
+  width: 120px;
+  text-align: center;
+  display: block;
+}
