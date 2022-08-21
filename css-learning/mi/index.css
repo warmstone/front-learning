@@ -55,6 +55,7 @@
   top: 0px;
   right: 0px;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  z-index: -1;
 }
 .qrcode {
   /* display: none; */
@@ -116,7 +117,8 @@
 }
 .header-wrapper {
   height: 100px;
-  position: relative;
+  position: absolute;
+  z-index: -2;
 }
 .header-container {
   width: 1226px;
