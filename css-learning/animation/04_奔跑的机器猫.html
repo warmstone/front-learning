@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>奔跑的蓝胖子</title>
+  <style>
+    .jiqimao {
+      width: 115px;
+      height: 149px;
+      background-image: url(./img/jiqimao.jpeg);
+      background-position: 0 0;
+      /* 定义动画 */
+      animation-name: jiqimao;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: steps(4);
+    }
+
+    /* 定义关键帧 */
+    @keyframes jiqimao {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: -474px 0;
+      }
+    }
+
+    .runner {
+      width: 256px;
+      height: 256px;
+      background-image: url(./img/runner.png);
+      margin: 0 auto;
+      animation: run 0.3s steps(6) infinite;
+    }
+
+    @keyframes run {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: -1536px 0;
+      }
+    }
+  </style>
+ 
+</head>
+<body>
+  <!-- <div class="jiqimao">
+
+  </div> -->
+
+  <div class="runner">
+
+  </div>
+</body>
+</html>
